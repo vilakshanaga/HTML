@@ -1,0 +1,53 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1500px;
+    /* width: 1000px; */
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+
+   
+    
+}
+
+.box{
+
+    background-color: white;
+    width: 200px;
+}
+
+.cart
+    {
+        background-color: red;
+        width: 110px;
+        
+        text-align: center;
+        border-radius: 40px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+    h4{
+        color: blue;
+    }
+    span{
+        color:blue;
+    }
+
+    .head
+{
+    background-color: rgb(171, 212, 243);
+    padding: 5px;
+}

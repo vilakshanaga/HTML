@@ -1,0 +1,56 @@
+body{
+    background-color: blue;
+    text-align: center;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1500px;
+    /* width: 1000px; */
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+
+    
+
+.box{
+
+    height: 100px;
+    width: 100px;
+
+}
+.red{
+    background-color: red;
+    order: 1;
+}
+
+.green{
+    background-color: green;
+    order: 2;
+
+}
+
+.blue
+
+{
+    background-color:palevioletred;
+    order: 4;
+}
+
+.pink{
+    background-color: pink;
+    order: 3;
+}
+
+.cyan{
+    background-color: rgb(3, 79, 79);
+    flex-grow: 2;
+}
+
+.brown{
+    background-color: brown;
+}
